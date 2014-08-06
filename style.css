@@ -1,0 +1,81 @@
+/*
+ Theme Name:   Gustavo
+ Theme URI:    http://jeremy.hu/
+ Description:  A Child Theme of Singl, for my personal blog
+ Author:       Jeremy Herve
+ Author URI:   http://jeremy.hu/
+ Template:     singl
+ Version:      1.0
+ Text Domain:  gustavo
+*/
+
+/* Links */
+a {
+	color: #4271ae;
+}
+/*a:visited {
+	color: #718c00;
+}*/
+a:hover,
+a:focus,
+a:active {
+	color: #b294bb;
+}
+
+/* Header */
+.site-branding a {
+	color: #fff;
+}
+
+.home .site-branding,
+.home .site-branding a {
+	border-color: #f0c674;
+	color: #f0c674;
+}
+
+.social-links a:hover,
+.menu-toggle:hover,
+.main-navigation.toggled .menu-toggle,
+.main-navigation a:hover {
+	background: #f0c674;
+}
+
+/* Main content */
+.site-main [class*="navigation"] a:hover,
+.site-main [class*="navigation"] a:focus,
+.site-main [class*="navigation"] a:active,
+.more-link,
+.entry-thumbnail {
+	background: #4271ae;
+}
+
+.page-title a:hover,
+.page-title a:focus,
+.page-title a:active,
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active,
+.entry-meta a:hover,
+.entry-meta a:focus,
+.entry-meta a:active {
+	color: #4271ae;
+}
+
+/* Sidebar */
+.widget-area a {
+	color: #de935f;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: #de935f;
+	border-color: #de935f;
+}
+
+.widgets-trigger:hover,
+.widgets-trigger:focus,
+.widgets-trigger:active {
+	background-color: #de935f;
+}
