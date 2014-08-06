@@ -46,7 +46,8 @@ a:active {
 .site-main [class*="navigation"] a:active,
 .more-link,
 .entry-thumbnail,
-.reply a {
+.reply a, 
+#infinite-handle span:hover {
 	background: #4271ae;
 }
 
