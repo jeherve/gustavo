@@ -45,7 +45,8 @@ a:active {
 .site-main [class*="navigation"] a:focus,
 .site-main [class*="navigation"] a:active,
 .more-link,
-.entry-thumbnail {
+.entry-thumbnail,
+.reply a {
 	background: #4271ae;
 }
 
