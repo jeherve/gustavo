@@ -22,7 +22,7 @@ function jeherve_adjust_title_color( $colors_css, $color, $contrast ) {
 	extract( $tonesque );
 
 	$colors_css = "
-		body { background: #{$color} !important; }
+		body, .entry-thumbnail { background: #{$color} !important; }
 		.site-header .site-branding, .site-header .site-branding a { border-color: rgb({$contrast}); color: rgb({$contrast}); }
 	";
 
