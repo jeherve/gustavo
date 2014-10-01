@@ -63,6 +63,10 @@ a:active {
 	color: #4271ae;
 }
 
+#main .sharedaddy:before {
+	height: 0;
+}
+
 /* Sidebar */
 .widget-area a {
 	color: #de935f;
